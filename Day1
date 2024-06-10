@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First web page</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .column:first-child {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#footer">Clicca qui!</a>
+ <h1 style= color:blueviolet;>Michelepaolo Renzi</h1>   
+ <h2>michelepaolorenzi@gmail.com</h2>
+ <img width="650" src="https://media.licdn.com/dms/image/D4D03AQG22uIvCfytuw/profile-displayphoto-shrink_800_800/0/1710936683351?e=1723075200&v=beta&t=oTDopR7yk2UCZsY-bqzzC-ZnETrOhlKaxv8Th3aTZHE" alt="Foto di Presentazione">
+            <main><h2>Presentazione</h2>
+            <img width="650" src="https://www.focus.it/images/2021/08/11/etna_1500x1000.jpg" alt="Foto del vulcano Etna">
+            <p> Mi chiamo Michele, sono nato a Catania il 07 Luglio del 1993, e ho sempre in qualche modo trovato la via per sfogare la mia passione verso il tech e la creatività. Sono laureato in scienze della comunicazione digitale con un
+                master in ideazione e produzione per i media digitali.Ho lavorato come video editor in diverse produzioni televisive, collaborando con team di professionisti per creare contenuti di alta qualità che hanno raggiunto un vasto pubblico. Questa esperienza mi ha permesso di affinare le mie competenze tecniche e creative, adattandomi alle esigenze e agli standard dell'industria televisiva.
+
+                Inoltre, ho lavorato come freelance per alcuni streamer, offrendo i miei servizi per la creazione e la modifica dei loro contenuti video. Questo ruolo mi ha dato l'opportunità di entrare nel mondo dinamico e in rapida crescita dello streaming, dove ho potuto sperimentare nuove tecniche e stili di montaggio per mantenere il pubblico coinvolto e interessato.
+                
+                Ho avuto anche l'opportunità di collaborare con una nota azienda che si occupa di eventi, dove ho curato la produzione e l'editing dei video per diverse manifestazioni. In questo contesto, ho imparato a gestire progetti complessi e a lavorare sotto pressione per rispettare le scadenze strette, mantenendo sempre un alto livello di qualità. Mi piace lavorare in gruppo, seppur io stia sempre nel mio mi piace poter dare una mano o prendere parte a progetti più ambiziosi che necessitano uno sforzo di squadra coordinato.</p>
+            <h2>Hobby</h2>
+            <img width="650" src="https://i.pinimg.com/736x/c3/1e/05/c31e05cc0f65162393a2a956cbe86cf0.jpg" alt="Foto gatto malefico">
+            <p>Quando non lavoro e non esco con amici, mi rinchiudo nella mia camera per dedicarmi a diverse attività che mi appassionano. Solitamente, passo il tempo a disegnare, immergendomi nel mondo della creatività e delle forme; altre volte, mi perdo nel montaggio e nella modifica di video, cercando di raccontare storie attraverso le immagini e i suoni. Quando desidero un po' di svago, mi piace giocare a qualche videogioco, esplorando nuovi mondi virtuali e sfidando me stesso.
+
+                In generale, apprezzo qualsiasi attività creativa che preveda l'uso di strumenti digitali. La tecnologia mi affascina e trovo che sia un mezzo straordinario per esprimere la mia creatività e le mie idee.
+                
+                Essendo cresciuto al mare, ho sviluppato una grande passione per il nuoto. Ogni volta che ne ho l'opportunità, mi piace andare a nuotare, sentendo l'acqua che mi avvolge e mi trasporta. È un'attività che mi rilassa e mi rigenera, permettendomi di rimanere in contatto con la natura e con i ricordi della mia infanzia.
+                
+                Per arrotondare e guadagnare qualche soldo extra, faccio anche il dog sitter. Mi sono sempre occupato di animali domestici sin da quando ero bambino e ho sviluppato una grande affinità con loro. Passare del tempo con i cani è per me una gioia: mi diverto a portarli a spasso, a giocare con loro e a prendermi cura delle loro necessità </p>     
+</main>
+            <h2>Hobby</h2>
+            <p>Per quanto riguarda <a href="javascript:void(0)">la mia personalità</a>, ho un carattere tendenzialmente calmo e riflessivo, che però lascia il posto a una valanga di entusiasmo quando si tratta di argomenti che mi appassionano. Mi piace approfondire e discutere delle mie passioni, condividendo le mie idee e imparando dagli altri.
+
+                Sono una persona molto schietta: non ho paura di ammettere quando non conosco qualcosa o quando ho bisogno di aiuto. Credo fermamente che questa onestà sia stata un grande vantaggio per me, poiché mi ha permesso di imparare di più e meglio. Affrontare le mie lacune con umiltà mi ha dato l'opportunità di crescere professionalmente e di acquisire nuove competenze in modo continuo.
+                
+                In conclusione, il mio percorso lavorativo e la mia attitudine personale mi hanno reso un professionista versatile e sempre desideroso di migliorare, pronto ad affrontare nuove sfide con entusiasmo e determinazione.</p>
+<footer id="footer"><p><a href="https://www.linkedin.com/in/michele-renzi/">Linkedin</a> | <a href="https://github.com/Auster-x">GitHub</a> | +39 3459392661 | michelepaolorenzi@gmail.com</p></footer>
+</body>
+</html>
