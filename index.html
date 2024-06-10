@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First web page</title>
     <style>
-        .container {
-            display: flex;
-            justify-content: space-between;
+        table {
+            width: 50%;
+            border-collapse: collapse;
         }
-        .column {
-            flex: 1;
-            padding: 10px;
-            box-sizing: border-box;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
         }
-        .column:first-child {
-            margin-right: 10px;
+        th {
+            background-color: #f2f2f2;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
         }
     </style>
 </head>
@@ -23,8 +28,10 @@
     <a href="#footer">Clicca qui!</a>
  <h1 style= color:blueviolet;>Michelepaolo Renzi</h1>   
  <h2>michelepaolorenzi@gmail.com</h2>
- <img width="650" src="https://media.licdn.com/dms/image/D4D03AQG22uIvCfytuw/profile-displayphoto-shrink_800_800/0/1710936683351?e=1723075200&v=beta&t=oTDopR7yk2UCZsY-bqzzC-ZnETrOhlKaxv8Th3aTZHE" alt="Foto di Presentazione">
-            <main><h2>Presentazione</h2>
+ <a href="javascript:void(0)">
+ <img width="350" src="https://media.licdn.com/dms/image/D4D03AQG22uIvCfytuw/profile-displayphoto-shrink_800_800/0/1710936683351?e=1723075200&v=beta&t=oTDopR7yk2UCZsY-bqzzC-ZnETrOhlKaxv8Th3aTZHE" alt="Foto di Presentazione">
+</a>
+ <main><h2>Presentazione</h2>
             <img width="650" src="https://www.focus.it/images/2021/08/11/etna_1500x1000.jpg" alt="Foto del vulcano Etna">
             <p> Mi chiamo Michele, sono nato a Catania il 07 Luglio del 1993, e ho sempre in qualche modo trovato la via per sfogare la mia passione verso il tech e la creatività. Sono laureato in scienze della comunicazione digitale con un
                 master in ideazione e produzione per i media digitali.Ho lavorato come video editor in diverse produzioni televisive, collaborando con team di professionisti per creare contenuti di alta qualità che hanno raggiunto un vasto pubblico. Questa esperienza mi ha permesso di affinare le mie competenze tecniche e creative, adattandomi alle esigenze e agli standard dell'industria televisiva.
@@ -43,11 +50,37 @@
                 Per arrotondare e guadagnare qualche soldo extra, faccio anche il dog sitter. Mi sono sempre occupato di animali domestici sin da quando ero bambino e ho sviluppato una grande affinità con loro. Passare del tempo con i cani è per me una gioia: mi diverto a portarli a spasso, a giocare con loro e a prendermi cura delle loro necessità </p>     
 </main>
             <h2>Hobby</h2>
-            <p>Per quanto riguarda <a href="javascript:void(0)">la mia personalità</a>, ho un carattere tendenzialmente calmo e riflessivo, che però lascia il posto a una valanga di entusiasmo quando si tratta di argomenti che mi appassionano. Mi piace approfondire e discutere delle mie passioni, condividendo le mie idee e imparando dagli altri.
+            <p>
+                Per quanto riguarda <a href="javascript:void(0)">la mia personalità</a>, ho un carattere tendenzialmente calmo e riflessivo, che però lascia il posto a una valanga di entusiasmo quando si tratta di argomenti che mi appassionano. Mi piace approfondire e discutere delle mie passioni, condividendo le mie idee e imparando dagli altri.
 
                 Sono una persona molto schietta: non ho paura di ammettere quando non conosco qualcosa o quando ho bisogno di aiuto. Credo fermamente che questa onestà sia stata un grande vantaggio per me, poiché mi ha permesso di imparare di più e meglio. Affrontare le mie lacune con umiltà mi ha dato l'opportunità di crescere professionalmente e di acquisire nuove competenze in modo continuo.
                 
-                In conclusione, il mio percorso lavorativo e la mia attitudine personale mi hanno reso un professionista versatile e sempre desideroso di migliorare, pronto ad affrontare nuove sfide con entusiasmo e determinazione.</p>
-<footer id="footer"><p><a href="https://www.linkedin.com/in/michele-renzi/">Linkedin</a> | <a href="https://github.com/Auster-x">GitHub</a> | +39 3459392661 | michelepaolorenzi@gmail.com</p></footer>
+                In conclusione, il mio percorso lavorativo e la mia attitudine personale mi hanno reso un professionista versatile e sempre desideroso di migliorare, pronto ad affrontare nuove sfide con entusiasmo e determinazione.
+            </p>
+            <div>
+                <table>
+                    <tr>
+                        <th>Interessi</th>
+                        <th>Hobby</th>
+                        <th>Esperienze Lavorative</th>
+                    </tr>
+                    <tr>
+                        <td>Film/Serie Tv</td>
+                        <td>Disegno</td>
+                        <td>Video Editor presso Mediaset S.p.A.</td>
+                    </tr>
+                    <tr>
+                        <td>Animali</td>
+                        <td>Videogames</td>
+                        <td>Social Media Manager presso Adc Group</td>
+                    </tr>
+                    <tr>
+                        <td>Tech Art</td>
+                        <td>Nuoto</td>
+                        <td>Assistente Autore presso Masterchef Italia</td>
+                    </tr>
+                </table>
+                </div>
+                <footer id="footer"><p><a href="https://www.linkedin.com/in/michele-renzi/">Linkedin</a> | <a href="https://github.com/Auster-x">GitHub</a> | +39 3459392661 | michelepaolorenzi@gmail.com</p></footer>
 </body>
 </html>
